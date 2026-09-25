@@ -18,9 +18,13 @@ administrator access. Remove the app from **Settings → Installed apps**.
 
 ## Preview status
 
-Version 0.2.0 Preview 1 is an early preview. Some privacy and security features
-are still in development, and the Windows sandbox is disabled in this build.
-Do not use this version for sensitive browsing.
+Version 0.3.0 Preview 1 includes the Windows sandbox, local privacy controls,
+integrated downloads, and a per-profile password vault protected by Windows
+DPAPI. Windows Hello on Windows 11 is required to reveal, edit, or delete saved
+passwords. Automatic sign-in and password filling are not available yet.
+
+The installer is unsigned, so Windows may show an unknown publisher warning.
+Check the published SHA-256 file before installing.
 
 ## Licensing
 
