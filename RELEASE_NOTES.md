@@ -1,9 +1,12 @@
-## Netrunner Nexus 0.3.0 Preview 1
+## Netrunner Nexus 0.4.0 Preview 1
 
 Instalador para Windows 10/11 x64. Instala no perfil do usuário e não precisa de permissão de administrador.
 
 ### Novidades
 
+- Proteção completa contra fingerprinting: Canvas, WebGL, AudioContext, fontes, hardware (núcleos/memória) e tela/fuso horário, configurável em Privacidade (Padrão, Estrito ou Personalizado).
+- Serviço de atualização automática: verifica a versão mais recente periodicamente, baixa e confere hash e assinatura digital do instalador antes de qualquer coisa rodar, e sempre pede confirmação antes de fechar o Nexus e instalar.
+- Correções de segurança internas identificadas numa auditoria de código, incluindo reforço da integridade das atualizações e da gravação de arquivos baixados.
 - Gerenciador de downloads integrado em uma aba, com pausar, retomar, cancelar e abrir arquivos.
 - Cofre de senhas local separado por perfil, criptografado pelo Windows.
 - Windows Hello para revelar, editar ou excluir senhas salvas (Windows 11).

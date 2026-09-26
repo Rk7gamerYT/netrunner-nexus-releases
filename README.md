@@ -18,10 +18,13 @@ administrator access. Remove the app from **Settings → Installed apps**.
 
 ## Preview status
 
-Version 0.3.0 Preview 1 includes the Windows sandbox, local privacy controls,
-integrated downloads, and a per-profile password vault protected by Windows
-DPAPI. Windows Hello on Windows 11 is required to reveal, edit, or delete saved
-passwords. Automatic sign-in and password filling are not available yet.
+Version 0.4.0 Preview 1 includes the Windows sandbox, local privacy controls,
+integrated downloads, a per-profile password vault protected by Windows DPAPI,
+full fingerprint-protection coverage (canvas, WebGL, AudioContext, fonts,
+hardware/timezone), and an automatic update service that verifies both a
+SHA-256 hash and a digital signature before installing anything. Windows Hello
+on Windows 11 is required to reveal, edit, or delete saved passwords.
+Automatic sign-in and password filling are not available yet.
 
 The installer is unsigned, so Windows may show an unknown publisher warning.
 Check the published SHA-256 file before installing.
